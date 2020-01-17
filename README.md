@@ -3,19 +3,15 @@
 [![Build Status](https://cloud.drone.io/api/badges/dyrkin/zigbee-steward/status.svg??branch=master)](https://cloud.drone.io/dyrkin/zigbee-steward)
 
 ## Overview
-
-Bla bla bla
+Fork from dyrkin/zigbee-steward
 
 ## Example
+use cc2530
 
-In this example, we are going to send **toggle** command to IKEA TRÅDFRI bulb using Xiaomi  Aqara Wireless Remote Switch. 
-To prepare, follow the steps:
-
-1. Connect ZigBee stick cc2531 to USB;
-2. Flash it using instruction: https://www.zigbee2mqtt.io/getting_started/flashing_the_cc2531.html;
+1. Connect cc2530
+2. Flash it using with ZNP image complied from zstack source code (\Z-Stack 3.0.2\Projects\zstack\ZNP\CC253x)
 3. Run the example;
-4. Pair IKEA TRÅDFRI bulb by repeating 6 ONs and 5 OFFs one by one (ON -> OFF, ON -> OFF, ON -> OFF, ON -> OFF, ON -> OFF, ON);
-5. Pair Xiaomi  Aqara Wireless Remote Switch by holding the button for ~10 seconds until blue LEDs start blinking.
+4. Pair zigbee device
 
 Now you can toggle the bulb using the remote switch. Just click on it.
 
